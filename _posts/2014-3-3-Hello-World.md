@@ -1,10 +1,73 @@
 ---
 layout: post
-title: You're up and running!
+title: Aprendiendo HTML con ChatGPT
 ---
 
-Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
+![_config.yml]({{ site.baseurl }}/images/pos1/igpt.png)
 
-![_config.yml]({{ site.baseurl }}/images/avatar.png)
 
-The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
+Es evidente para todos que ChatGPT es una herramienta increible y muy poderosa. Ayer hablando con Niko, un buen amigo mio, se me paso por la cabeza la idea de si seria posible construir un blog desde 0 en lenguaje HTML con, sin ningun conocimiento mas que las pocas bases en Python que tengo, usando como herramienta de aprendizaje y desarrollo esclusivamente a ChatGPT. En este post os traigo las primeras pruebas que he realizado.
+
+A partir de aquí me referiré a mi mismo como Cobos, y a nuestro amigo como ChatGPT.
+
+**Cobos:** ¿Me ayudas a programar un blog desde 0 en html?
+
+**ChatGPT:** ¡Por supuesto! Te puedo guiar en la creación de un blog básico desde cero en HTML.
+Aquí te presento los pasos que puedes seguir:
+
+1.	Crea un archivo HTML: Abre un editor de texto y crea un nuevo archivo HTML. Puedes nombrarlo como "index.html" para que sea la página de inicio del blog.
+2.	Estructura básica del documento HTML: En el archivo HTML, añade la estructura básica del documento HTML. Por ejemplo:
+
+![_config.yml]({{ site.baseurl }}/images/pos1/i1.png)
+
+3.	Añade un encabezado: Añade un encabezado en la sección <header> del archivo HTML. El encabezado debe incluir el título del blog, una imagen de logotipo y cualquier otra información importante que desees mostrar en el encabezado.
+4.	Crea un menú de navegación: En la sección <nav> del archivo HTML, crea un menú de navegación para que los usuarios puedan navegar fácilmente por el blog. Puedes incluir enlaces a las páginas principales del blog, como la página de inicio, la página "Acerca de" y la página de contacto.
+5.	Crea una sección de artículos: En la sección principal del archivo HTML, crea una sección para los artículos del blog. Cada artículo debe estar contenido dentro de una etiqueta <article> y debe incluir un título, una fecha de publicación y el contenido del artículo.
+6.	Añade comentarios: Si deseas permitir que los usuarios comenten en tus publicaciones, puedes añadir una sección de comentarios usando una plataforma de comentarios de terceros como Disqus.
+7.	Estiliza el blog con CSS: Una vez que hayas creado la estructura básica del blog en HTML, puedes usar CSS para estilizar el diseño y darle estilo a la apariencia del blog
+
+Estos son solo algunos pasos básicos para crear un blog en HTML desde cero. Puedes continuar añadiendo características adicionales según tus necesidades. Espero que esto te sea útil para comenzar a crear tu blog en HTML.
+
+*Gracias a esto, entiendo que el index.html es la pàgina principal, y que estructura bàsica necesitaré, y entiendo que el estilo del blog se lo puedo dar con CSS.*
+
+**Cobos:** Entonces, planteame un encabezado en HTML.
+**ChatGPT:** ¡Entendido! Aquí te proporciono algunos consejos para crear un buen encabezado para tu blog en HTML:
+
+1.	Título del blog: El título del blog debe estar en la parte superior del encabezado. Utiliza una etiqueta <h1> para mostrar el título de tu blog en negrita y en un tamaño de letra grande.
+2.	Logo: Si tienes un logotipo para tu blog, puedes incluirlo en el encabezado. Puedes utilizar la etiqueta <img> para añadir la imagen de tu logotipo y darle estilo usando CSS.
+3.	Menú de navegación: El encabezado es un buen lugar para incluir un menú de navegación. El menú de navegación te permitirá enlazar a otras páginas del blog, como la página "Acerca de" o la página de contacto. Puedes crear el menú de navegación utilizando la etiqueta <nav> y enlazar a las diferentes páginas utilizando la etiqueta <a>.
+4.	Descripción del blog: Si deseas proporcionar una breve descripción de tu blog, puedes incluirla en el encabezado. Puedes utilizar una etiqueta <p> para incluir la descripción del blog.
+
+![_config.yml]({{ site.baseurl }}/images/pos1/i2.png)
+
+*Voy entendiendo un poco mas las estructuras, y para que me servirán algunas de ellas. Me doy cuenta de porque siempre he escuchado que es un lenguaje sencillo, y entiendole doy sentido el atributo que tiene de lenguaje de etiquetas*
+
+**Cobos:** ¿Y para aplicar el CSS?
+**ChatGPT:** Para aplicar estilos CSS a tu blog, primero necesitas crear un archivo CSS separado y enlazarlo a tu archivo HTML utilizando la etiqueta <link> en la sección <head> de tu documento HTML. Por ejemplo, si tu archivo CSS se llama "styles.css" y está en la misma carpeta que tu archivo HTML, el enlace se vería así:
+
+![_config.yml]({{ site.baseurl }}/images/pos1/i3.png)
+
+A continuación, puedes agregar reglas CSS en tu archivo "styles.css" para dar estilo a diferentes elementos HTML de tu blog. Por ejemplo, si quieres darle estilo al encabezado de tu blog, puedes agregar reglas CSS para la etiqueta <header>:
+
+![_config.yml]({{ site.baseurl }}/images/pos1/i4.png)
+
+Estas reglas CSS establecen el color de fondo del encabezado en gris oscuro, el color de texto en blanco, el relleno de 20 píxeles alrededor del encabezado y el alineamiento de texto centrado.
+También puedes agregar reglas CSS para otros elementos HTML, como las etiquetas <h1>, <nav>, <ul>, entre otros, para darles estilo y personalizar el diseño de tu blog. Para más información sobre cómo escribir CSS, te recomiendo que consultes recursos en línea o tutoriales de CSS.
+Recuerda que el objetivo de CSS es darle estilo a tu blog y hacerlo más atractivo visualmente, pero también es importante que la estructura de tu contenido siga siendo clara y coherente.
+
+*Me recomienda mirar tutoriales, no sabe la que le espera. Gracias a esto saco información muy importante de como usar el CSS i de como se comporta.*
+
+**Cobos:** Muéstrame el código html de un índex de blog con todo lo necesario que me has dicho anteriormente, con CSS para darle un diseño con mucho estilo a todo el conjunto.
+**ChatGPT:** ¡Claro! Aquí te muestro un ejemplo de código HTML y CSS para un index de blog, incluyendo los elementos que mencionaste anteriormente como título, subtítulo, secciones de posts, imágenes y enlaces.
+Recuerda que este código es sólo un ejemplo y que puedes personalizarlo y ajustarlo a tus necesidades y preferencias de diseño.
+
+*El código de los dos archivos se hace demasiado extenso, pero una vez lanzado el archivo.html en mi PC desde Live Server, ha quedado esto:*
+
+
+![_config.yml]({{ site.baseurl }}/images/pos1/i5.png)
+
+
+Después de la experiencia, me he dado cuenta que tiene mucho potencial para conseguir la meta, pero tambén me genera dudas respecto si conseguiré generar un blog en formato HTML solamente usando de recurso a ChatGPT. 
+A mi parecer, el esqueleto es mejor que el que tengo en mi blog actual, a ver si de la mano con ChatGPT, consigo hacer un blog funcional y que supere al que actualmente utilizo.
+
+¡Nos vemos en la próxima!
