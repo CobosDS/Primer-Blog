@@ -3,7 +3,7 @@ layout: post
 title: Aprendiendo HTML con ChatGPT
 ---
 
-![_config.yml]({{ site.baseurl }}/images/pos1/igpt.png)
+![_config.yml]({{ site.baseurl }}/images/igpt.png)
 
 
 Es evidente para todos que ChatGPT es una herramienta increible y muy poderosa. Ayer hablando con Niko, un buen amigo mio, se me paso por la cabeza la idea de si seria posible construir un blog desde 0 en lenguaje HTML con, sin ningun conocimiento mas que las pocas bases en Python que tengo, usando como herramienta de aprendizaje y desarrollo esclusivamente a ChatGPT. En este post os traigo las primeras pruebas que he realizado.
@@ -18,7 +18,7 @@ Aquí te presento los pasos que puedes seguir:
 1.	Crea un archivo HTML: Abre un editor de texto y crea un nuevo archivo HTML. Puedes nombrarlo como "index.html" para que sea la página de inicio del blog.
 2.	Estructura básica del documento HTML: En el archivo HTML, añade la estructura básica del documento HTML. Por ejemplo:
 
-![_config.yml]({{ site.baseurl }}/images/pos1/i1.png)
+![_config.yml]({{ site.baseurl }}/images/i1.png)
 
 3.	Añade un encabezado: Añade un encabezado en la sección <header> del archivo HTML. El encabezado debe incluir el título del blog, una imagen de logotipo y cualquier otra información importante que desees mostrar en el encabezado.
 4.	Crea un menú de navegación: En la sección <nav> del archivo HTML, crea un menú de navegación para que los usuarios puedan navegar fácilmente por el blog. Puedes incluir enlaces a las páginas principales del blog, como la página de inicio, la página "Acerca de" y la página de contacto.
@@ -38,18 +38,18 @@ Estos son solo algunos pasos básicos para crear un blog en HTML desde cero. Pue
 3.	Menú de navegación: El encabezado es un buen lugar para incluir un menú de navegación. El menú de navegación te permitirá enlazar a otras páginas del blog, como la página "Acerca de" o la página de contacto. Puedes crear el menú de navegación utilizando la etiqueta <nav> y enlazar a las diferentes páginas utilizando la etiqueta <a>.
 4.	Descripción del blog: Si deseas proporcionar una breve descripción de tu blog, puedes incluirla en el encabezado. Puedes utilizar una etiqueta <p> para incluir la descripción del blog.
 
-![_config.yml]({{ site.baseurl }}/images/pos1/i2.png)
+![_config.yml]({{ site.baseurl }}/images/i2.png)
 
 *Voy entendiendo un poco mas las estructuras, y para que me servirán algunas de ellas. Me doy cuenta de porque siempre he escuchado que es un lenguaje sencillo, y entiendole doy sentido el atributo que tiene de lenguaje de etiquetas*
 
 **Cobos:** ¿Y para aplicar el CSS?
 **ChatGPT:** Para aplicar estilos CSS a tu blog, primero necesitas crear un archivo CSS separado y enlazarlo a tu archivo HTML utilizando la etiqueta <link> en la sección <head> de tu documento HTML. Por ejemplo, si tu archivo CSS se llama "styles.css" y está en la misma carpeta que tu archivo HTML, el enlace se vería así:
 
-![_config.yml]({{ site.baseurl }}/images/pos1/i3.png)
+![_config.yml]({{ site.baseurl }}/images/i3.png)
 
 A continuación, puedes agregar reglas CSS en tu archivo "styles.css" para dar estilo a diferentes elementos HTML de tu blog. Por ejemplo, si quieres darle estilo al encabezado de tu blog, puedes agregar reglas CSS para la etiqueta <header>:
 
-![_config.yml]({{ site.baseurl }}/images/pos1/i4.png)
+![_config.yml]({{ site.baseurl }}/images/i4.png)
 
 Estas reglas CSS establecen el color de fondo del encabezado en gris oscuro, el color de texto en blanco, el relleno de 20 píxeles alrededor del encabezado y el alineamiento de texto centrado.
 También puedes agregar reglas CSS para otros elementos HTML, como las etiquetas <h1>, <nav>, <ul>, entre otros, para darles estilo y personalizar el diseño de tu blog. Para más información sobre cómo escribir CSS, te recomiendo que consultes recursos en línea o tutoriales de CSS.
@@ -64,7 +64,7 @@ Recuerda que este código es sólo un ejemplo y que puedes personalizarlo y ajus
 *El código de los dos archivos se hace demasiado extenso, pero una vez lanzado el archivo.html en mi PC desde Live Server, ha quedado esto:*
 
 
-![_config.yml]({{ site.baseurl }}/images/pos1/i5.png)
+![_config.yml]({{ site.baseurl }}/images/i5.png)
 
 
 Después de la experiencia, me he dado cuenta que tiene mucho potencial para conseguir la meta, pero tambén me genera dudas respecto si conseguiré generar un blog en formato HTML solamente usando de recurso a ChatGPT. 
